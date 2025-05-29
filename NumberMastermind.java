@@ -8,6 +8,7 @@ public class NumberMastermind {
     // Maximum number of attempts allowed
     private static final int MAX_ATTEMPTS = 10;
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         generateSecretNumber(); // Create the random 4-digit number
